@@ -1,0 +1,50 @@
+﻿@page
+@model ConnectFourServer.Pages.AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #e9ecef;
+    }
+
+    .centered-content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 2px 2px 12px #aaa;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .names {
+        font-weight: bold;
+        color: #007bff;
+    }
+</style>
+
+<div class="centered-content">
+    <h1>About Connect Four</h1>
+    <p>
+        Connect Four is a classic two-player connection game in which the players choose a color and then take turns dropping colored discs from the top into a vertically suspended grid. The objective of the game is to connect four of one's own discs of the same color next to each other vertically, horizontally, or diagonally before your opponent does.
+    </p>
+    <p>
+        This Connect Four game is developed by <span class="names">Michael Kogan</span> and <span class="names">Itay Ifrach</span>. It was created as part of an educational project for a course "Net Programming With .Net"  led by <span class="names">Mr. Arnon Barket</span>.
+    </p>
+    <p>
+        The game was developed using Windows Form .NET framework and ASP.NET Core Web Application. The user plays the game agaisnt the computer.
+        We hope you enjoy playing Connect Four as much as we enjoyed creating it!
+    </p>
+</div>

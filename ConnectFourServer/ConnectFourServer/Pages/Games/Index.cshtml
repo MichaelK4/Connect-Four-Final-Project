@@ -1,0 +1,55 @@
+﻿@page
+@model ConnectFourServer.Pages.Games.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1 class="text-center my-5">All Games</h1>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].GameId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].Player)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].GameResult)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].GameDuration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].GameStartTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Game) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameResult)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameStartTime)
+            </td>
+            <td>
+                    <a asp-page="/Games/Details" asp-route-username="@item.Username" asp-route-gameid="@item.GameId" class="btn btn-primary btn-sm">Details</a>
+                    @*| <a asp-page="./Delete" asp-route-username="@item.Username" asp-route-gameid="@item.GameId">Delete</a>*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

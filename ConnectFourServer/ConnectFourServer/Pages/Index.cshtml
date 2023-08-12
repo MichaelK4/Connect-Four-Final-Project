@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Connect Four</h1>
+    <a class="btn btn-primary mb-3" href="/Register">Register</a> <!-- Added margin-bottom here -->
+</div>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Message"]
+    </div>
+}
+
+@if (TempData["Delete"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["Delete"]
+    </div>
+}
+
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+</style>
+
+<img src="~/images/boardforhomepagev2.png" alt="Description of image" class="center">
