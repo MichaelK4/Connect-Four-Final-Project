@@ -16,6 +16,8 @@
             <input type="hidden" asp-for="Player.Username" />
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Player.ChoiceID"/>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Player.GamesPlayed"/>
             <div class="form-group">
                 <label asp-for="Player.FirstName" class="control-label"></label>
                 <input asp-for="Player.FirstName" class="form-control" />
