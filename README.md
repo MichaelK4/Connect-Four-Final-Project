@@ -41,12 +41,12 @@ To run the Connect Four Game Project locally, follow these steps:
 5. A website will open on your main browser.
 6. Because the database is new on your computer you won't see any previous data, it will be empty.
 7. Register yourself.
-8. Now open the ConnectFourClient.sln on Visual Studion.
+8. Now open the ConnectFourClient.sln on Visual Studio.
 9. In both Program.cs and DatabaseBox.cs(right mouse click -> 'view code') change the path of the 'connStr' to the path to the 'Database.mdf' file in the 'ConnectFourClient' Folder.
 10. Run the client solution.
 11. Enter your username and login, if you didn't enter a username before you can press the sign-up button and it will take you to the register page(only if the server side is running).
 12. Enjoy the game.
-13. If you want to save your game to the database you can press either Pause/New game/ End game. If you finished the game and you Won/Lost or made a draw the game won't be saved to the database.
+13. If you want to save your game to the database you can press either Pause/New game/ End game. If you finished the game and you Won/Lost or made a draw the game won't be saved to the database automatically.
 
 
 # Conclusion
