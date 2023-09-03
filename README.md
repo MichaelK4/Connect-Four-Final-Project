@@ -17,7 +17,7 @@ The client-side of the project is implemented using Windows Forms, providing a g
 
 * Play: Users can make moves in the Connect Four game by selecting columns on the game board.
 * Replay: Users have the ability to replay previously played games.
-* Resume: If a game was paused, users can resume the game from where they left off.
+* Resume: If a game is paused, users can resume it from where they left off.
 * Restart: Users can restart the current game without saving the previous state.
 * New Game: Users can start a new game from scratch.
 * View Game History: Users can view their previous game history stored on the client-side database.
@@ -26,9 +26,9 @@ The client-side of the project is implemented using Windows Forms, providing a g
 The website component of the project provides additional functionalities accessible through a web interface:
 * Edit users: Users can edit their information.
 * Delete User: You have the option to delete your user, including all your game data.
-* View User Details: Detailed information about users, including their game statistics, can be viewed.
+* View User Details: Detailed user information, including their game statistics, can be viewed.
 * View Game Details: Information about individual games, such as outcome and duration, can be accessed.
-* Statistics Page: The website offers a statistics page featuring various queries and views to showcase different data from the user and game tables.
+* Statistics Page: The website offers a statistics page featuring various queries and views to showcase data from the user and game tables.
 
 
 ## Getting Started
@@ -46,7 +46,7 @@ To run the Connect Four Game Project locally, follow these steps:
 10. Run the client solution.
 11. Enter your username and login, if you didn't enter a username before you can press the sign-up button and it will take you to the register page(only if the server side is running).
 12. Enjoy the game.
-13. If you want to save your game to the database you can press either Pause/New game/ End game. If you finished the game and you Won/Lost or made a draw the game won't be saved to the database automatically.
+13. If you want to save your game to the database you can press either Pause/New game/ End game. If you finish the game and you Won/Lost or Draw the game won't be saved to the database automatically.
 
 
 # Conclusion
