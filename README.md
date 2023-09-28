@@ -2,8 +2,13 @@
 
 This README document provides an overview of the Connect Four Game Project that utilizes ASP.NET for the website server-side and Windows Forms for the client-side game GUI.
 
+![boardforhomepagev2](https://github.com/MichaelK4/Connect-Four-Final-Project/assets/80212170/8a9e566d-c807-4a59-96e5-f5cec25403b3)
+
 ## Project Description
 This project aims to create an interactive and engaging gaming experience where users can play the classic Connect Four game through a user-friendly Windows Forms GUI. The project is divided into two main components: The Server-side and the Client-side.
+
+## Video Demonstartion
+https://github.com/MichaelK4/Connect-Four-Final-Project/assets/80212170/f134d63a-6cbe-4e77-a07c-a03b3aa519e6
 
 ## Server-Side
 The project's server-side is implemented using ASP.NET Core Web Application, which provides a robust framework for handling web applications and APIs. The server is responsible for:
