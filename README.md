@@ -7,7 +7,7 @@ This project aims to create an interactive and engaging gaming experience where 
 
 ![boardforhomepagev2](https://github.com/MichaelK4/Connect-Four-Final-Project/assets/80212170/8a9e566d-c807-4a59-96e5-f5cec25403b3)
 
-## Video Demonstration
+## Video Demonstration(No Audio)
 https://github.com/MichaelK4/Connect-Four-Final-Project/assets/80212170/f134d63a-6cbe-4e77-a07c-a03b3aa519e6
 
 ## Server-Side
